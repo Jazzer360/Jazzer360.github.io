@@ -1,4 +1,18 @@
 /**
+ * Utils
+ */
+
+.float-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+/**
  * Site header
  */
 .site-header {
@@ -194,6 +208,11 @@
     font-size: 24px;
 }
 
+.framed {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
 
 
 /**
@@ -211,6 +230,11 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post-preview {
+    font-size: 12px;
+    color: gray;
 }
 
 .post-content {

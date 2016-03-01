@@ -4,6 +4,8 @@ layout: default
 
 <div class="home">
 
+  <img src='/assets/profile.jpg' width='180' class='framed float-left'>
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -13,6 +15,7 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="post-preview">{{ post.content | truncate: 150, '...' }}</span>
         </h2>
       </li>
     {% endfor %}
