@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      "Small audio stream recording project."
-date:       2016-03-01 09:57:32 -0600
-categories: python audio recording
+layout: post
+title: "Small audio stream recording project."
+date: 2016-03-01 09:57:32 -0600
+categories: python
 ---
 
 Listening to this pretty awesome radio program out of Salt Lake City, UT
