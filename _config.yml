@@ -15,6 +15,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.derekjass.com" # the base hostname & protocol for your site
 twitter_username: DerekJass
 github_username:  Jazzer360
+permalink: pretty
 
 # Build settings
 markdown: kramdown
+gems:
+- jekyll-coffeescript

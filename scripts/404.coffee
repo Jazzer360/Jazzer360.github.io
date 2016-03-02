@@ -1,3 +1,5 @@
+---
+---
 $ ->
   $myDiv = $('.not-found')
   pos = 0
