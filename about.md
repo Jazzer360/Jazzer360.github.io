@@ -9,8 +9,7 @@ custom_js:
 order: 100
 ---
 
-<img class='framed float-left' src='/assets/profile.jpg' width='180'>
-
+![me]{:leftimg}
 This is me.
 I am <span id='myage'></span> years old.
 
@@ -25,11 +24,10 @@ The code is beautiful.
 It is extremely powerful, yet incredibly simple.
 I first learned to write in Java, and while it has it's merits, I am a much bigger fan of Python.
 
-<img class='framed float-right' src='/assets/harvey.jpeg' width='180'>
-
-I have a son. 
-His name is Harvey. 
-This is him. 
+![harvey]{:rightimg}
+I have a son.
+His name is Harvey.
+This is him.
 He is <span id='harveyage'></span> years old.
 
 He is bursting with energy, and keeps both my wife and I on our toes pretty much all the time.
@@ -41,3 +39,10 @@ We've now been married for <span id='marriedyears'></span> years.
 
 Some of my other hobbies include playing music (bass and acoustic guitar) bicycling, playing various video games, and snowboarding.
 While I enjoy these other activities, nothing is more enjoyable to me than working with code.
+
+[me]:     /assets/profile.jpg
+[harvey]: /assets/harvey.jpeg
+
+{:imgwidth: width='180px'}
+{:leftimg: imgwidth .framed.float-left}
+{:rightimg: imgwidth .framed.float-right}

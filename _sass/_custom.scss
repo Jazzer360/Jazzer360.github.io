@@ -1,0 +1,40 @@
+/**
+ * Utils
+ */
+
+.float-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.framed {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.not-found {
+    background-image: url('/assets/404.png');
+    background-repeat: repeat-y;
+    margin: auto;
+    text-align: center;
+}
+
+.error-message {
+    padding: 10px;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 24px auto;
+    background-color: transparentize($background-color, .10);
+}
+
+.post-preview {
+    font-size: $small-font-size;
+    color: $grey-color;
+}

@@ -20,3 +20,7 @@ gems:
 
 # Outputting
 permalink: pretty
+
+### Plugin settings ###
+sass:
+  style: compressed
