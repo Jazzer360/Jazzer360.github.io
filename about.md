@@ -6,6 +6,7 @@ custom_js:
 - https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
 - https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js
 - /scripts/about.js
+order: 100
 ---
 
 <img class='framed float-left' src='/assets/profile.jpg' width='180'>
