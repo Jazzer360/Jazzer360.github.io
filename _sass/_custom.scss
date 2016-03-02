@@ -38,3 +38,22 @@
     font-size: $small-font-size;
     color: $grey-color;
 }
+
+.active {
+    position: relative;
+    &::after {
+        @include media-query($on-palm) {
+            display: none;
+        }
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0px;
+        height: 0px;
+        left: 50%;
+        top: 100%;
+        border: 10px solid transparent;
+        border-bottom-color: $grey-color-dark;
+        margin-left: -10px;
+    }
+}
