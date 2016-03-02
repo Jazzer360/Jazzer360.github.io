@@ -29,7 +29,7 @@ I first learned to write in Java, and while it has it's merits, I am a much bigg
 I have a son. 
 His name is Harvey. 
 This is him. 
-He is <span id='harveyage'></span> years old as of today.
+He is <span id='harveyage'></span> years old.
 
 He is bursting with energy, and keeps both my wife and I on our toes pretty much all the time.
 
