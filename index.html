@@ -16,7 +16,7 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <span class="post-preview">{{ post.content | truncate: 150, '...' }}</span>
+        <span class="post-preview">{{ post.content | strip_html | truncate: 150, '...' }}</span>
       </li>
     {% endfor %}
   </ul>
