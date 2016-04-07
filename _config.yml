@@ -14,6 +14,8 @@ github_username:  Jazzer360
 
 ### Build settings ###
 
+future: true
+
 # Plugins
 gems:
   - jekyll-coffeescript
